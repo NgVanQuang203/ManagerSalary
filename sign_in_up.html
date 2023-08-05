@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login-register.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="sign-up-container form-container">
+            <form action="">
+                <h1>Create Account</h1>
+                <div class="social-container">
+                    <a href=""><i id="facebook" class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-solid fa-phone-volume"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-messenger"></i></a>
+                </div>
+                <span>or use your account</span>
+                    <div class="infield">
+                        <input type="text" placeholder="Name">
+                        <label for=""></label>
+                    </div>
+                    <div class="infield">
+                        <input type="email" name="email" id="" placeholder="Email">
+                        <label for=""></label>
+                    </div>
+                    <div class="infield">
+                        <input type="password" placeholder="Password" name="" id="">
+                        <label for=""></label>
+                    </div>
+                    <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="sign-in-container form-container">
+            <form action="">
+                <h1>Sign In</h1>
+                <div class="social-container">
+                    <a href=""><i id="facebook" class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-solid fa-phone-volume"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-messenger"></i></a>
+                    
+                </div>
+                <span>or use your account</span>
+                <div class="infield">
+                    <input type="email" placeholder="Email" name="email" required>
+                    <label for=""></label>
+                </div>
+                <div class="infield">
+                    <input type="password" placeholder="Password" required>
+                    <label for=""></label>
+                </div>
+                <a class="forgot" href=""> Forgot your password?</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="overlay-container" id="overlayCon">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <button>Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Enter your personal details and start journey with us</p>
+                    <button>Sign Up</button>
+                </div>
+            </div>
+            <button id="overlayBtn"></button>
+        </div>
+    </div>
+</body>
+<script
+    src="https://kit.fontawesome.com/85779941e8.js"
+    crossorigin="anonymous"
+  ></script>
+<script src="../sign_up_in.js"></script>
+  </html>
